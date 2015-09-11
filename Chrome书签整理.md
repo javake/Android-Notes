@@ -18,7 +18,7 @@ http://www.androidchina.net/1992.html#rd
 + Android性能优化典范
 http://hukai.me/android-performance-patterns-season-2/
 
-+ 设计模式图解（推荐先看《大话设计模式》初步理解）
++ 设计模式图解  
 http://design-patterns.readthedocs.org/zh_CN/latest/creational_patterns/singleton.html
 
 + 开发者新闻：
@@ -34,4 +34,4 @@ http://blog.csdn.net/zhaokaiqiang1992/article/details/19921703
 http://stackoverflow.com/
 
 + 知名开源代码解析
-http://a.codekk.com/
+http://a.codekk.com
