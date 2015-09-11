@@ -9,6 +9,9 @@ https://github.com/
 + AndroidDevTools ：Android开发工具大全  
 http://www.androiddevtools.cn/
 
++ MAT分析内存泄漏问题实例  
+http://blog.csdn.net/guolin_blog/article/details/42238633
+
 + 谷歌官方Android教程  
 http://developer.android.com/training/index.html
 
@@ -29,6 +32,7 @@ App开发日报：http://app.memect.com/
 + 不错的博客  
 http://blog.csdn.net/guolin_blog?viewmode=contents
 http://blog.csdn.net/zhaokaiqiang1992/article/details/19921703
+http://blog.csdn.net/bboyfeiyu?viewmode=contents
 
 + 技术问答  
 http://stackoverflow.com
