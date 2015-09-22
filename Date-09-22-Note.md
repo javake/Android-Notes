@@ -16,7 +16,10 @@
 + [探究LargeHeap](http://droidyue.com/blog/2015/08/01/dive-into-android-large-heap/?comefrom=http://blogread.cn/news/)
 + [技术小黑屋](http://droidyue.com/)
 + [Android中Handler引起的内存泄露](http://droidyue.com/blog/2014/12/28/in-android-handler-classes-should-be-static-or-leaks-might-occur/)
-+ [避免Android中Context引起的内存泄露]()
-+ [Google IO：Android内存管理主题演讲记录]()
-
++ [避免Android中Context引起的内存泄露](http://droidyue.com/blog/2015/04/12/avoid-memory-leaks-on-context-in-android/)
++ [Google IO：Android内存管理主题演讲记录](http://droidyue.com/blog/2014/11/02/note-for-google-io-memory-management-for-android-chinese-edition/)
++ [600个开源项目汇总](http://p.codekk.com/)
++ [一个可展开的Layout](https://github.com/AAkira/ExpandableLayout)
++ [Toast的一种新的实现](https://github.com/pyricau/frenchtoast)
++ 书籍推荐:Android开发艺术探索 Android群英传
 
