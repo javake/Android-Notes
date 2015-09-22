@@ -7,5 +7,6 @@
 + [Nice Blog 01](http://blog.csdn.net/wwj_748)
 + [性能优化](https://github.com/Juude/awesome-android-performance)
 + [内存泄露案例分析](http://www.csdn.net/article/2015-09-07/2825631)
-+ 
++ [另外一个换肤方案](https://github.com/bboyfeiyu/Colorful)
++ [对TextView的优化](http://instagram-engineering.tumblr.com/post/114508858967/improving-comment-rendering-on-android)
 
