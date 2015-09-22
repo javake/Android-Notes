@@ -1,4 +1,4 @@
-+ [正在加载的效果的实现](http://segmentfault.com/a/1190000003773197)   
++ [Android加载的效果的实现](http://segmentfault.com/a/1190000003773197)   
 + [Facebook:我们是如何构建第一个跨平台的React Native APP(译)](http://www.html-js.com/article/3173)  
 + [开发日报09-21](http://forum.memect.com/blog/thread/app-2015-09-21/)  
 + [Android分包MultiDex原理详解: 解决65536方法数限制的问题](http://www.aliog.com/77121.html)
@@ -8,5 +8,15 @@
 + [性能优化](https://github.com/Juude/awesome-android-performance)
 + [内存泄露案例分析](http://www.csdn.net/article/2015-09-07/2825631)
 + [另外一个换肤方案](https://github.com/bboyfeiyu/Colorful)
-+ [对TextView的优化](http://instagram-engineering.tumblr.com/post/114508858967/improving-comment-rendering-on-android)
++ [TextView渲染性能的提升](http://www.open-open.com/lib/view/open1429845433994.html)
++ [Developing on Android](https://medium.com/google-developers/developing-for-android-introduction-5345b451567c)
++ [如何成为一个偷懒又高效的Android开发人员](http://www.open-open.com/news/view/b11e1a)
++ [Android-Memory](http://developer.android.com/training/articles/memory.html)
++ [Android内存优化之OOM](http://www.csdn.net/article/2015-09-18/2825737)
++ [探究LargeHeap](http://droidyue.com/blog/2015/08/01/dive-into-android-large-heap/?comefrom=http://blogread.cn/news/)
++ [技术小黑屋](http://droidyue.com/)
++ [Android中Handler引起的内存泄露](http://droidyue.com/blog/2014/12/28/in-android-handler-classes-should-be-static-or-leaks-might-occur/)
++ [避免Android中Context引起的内存泄露]()
++ [Google IO：Android内存管理主题演讲记录]()
+
 
