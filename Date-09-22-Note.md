@@ -1,4 +1,5 @@
-+ [Android加载的效果的实现](http://segmentfault.com/a/1190000003773197)   
++ [Android加载的效果的实现](http://segmentfault.com/a/1190000003773197)  
++ [炫酷的加载动画](http://blog.csdn.net/gao_chun/article/details/48439255)
 + [Facebook:我们是如何构建第一个跨平台的React Native APP(译)](http://www.html-js.com/article/3173)  
 + [开发日报09-21](http://forum.memect.com/blog/thread/app-2015-09-21/)  
 + [Android分包MultiDex原理详解: 解决65536方法数限制的问题](http://www.aliog.com/77121.html)
@@ -21,5 +22,12 @@
 + [600个开源项目汇总](http://p.codekk.com/)
 + [一个可展开的Layout](https://github.com/AAkira/ExpandableLayout)
 + [Toast的一种新的实现](https://github.com/pyricau/frenchtoast)
-+ 书籍推荐:Android开发艺术探索 Android群英传
++ [书籍推荐:Android开发艺术探索 Android群英传]
++ [Android相机开发实战](http://blog.csdn.net/gao_chun/article/details/48246871)
++ [Android插件实例——360 DroidPlugin详解](http://blog.csdn.net/yzzst/article/details/48093567)
++ [微信Android客户端-会话速度提升70%的背后](https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=207548094&idx=1&sn=1a277620bc28349368b68ed98fbefebe&scene=1&srcid=dbEy3TOAGOJHmtRaTpjH&key=dffc561732c2265168190bb198abe836c4b3df55b84261b1a16a7aced9a54f0d122885d328713543a450bcefb851b751&ascene=0&uin=Mjc3OTU3Nzk1&devicetype=iMac14%2C2+OSX+OSX+10.10.5+build%2814F27%29&version=11020201&pass_ticket=GNxqICwJvq882bqMjuOvpsbq5ZySnjUKhMxA04cmO8mQDP%2BFRTQ1OqRySzuPwtGS)
++ [Android项目流行架构(英文原版)](https://medium.com/android-news/android-architecture-2f12e1c7d4db)
++ [可用于启动页面的ViewPager(带有联动效果)](https://github.com/sacot41/SCViewPager?utm_source=Android+Weekly&utm_campaign=f4c523d92b-Android_Weekly_168&utm_medium=email&utm_term=0_4eb677ad19-f4c523d92b-337861121)
++ [Android数据库高手系列](http://blog.csdn.net/guolin_blog/article/details/38461239)
++ 
 
