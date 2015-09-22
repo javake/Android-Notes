@@ -1,8 +1,8 @@
-# Android 优化总结
+# Android 性能优化总结
 
-## 代码优化
-1. 避免创建不必要的对象
-2. 避免在循环中创建对象
+## 代码层面
+1. 避免创建不必要的对象，避免在循环中创建对象
+2. 慎用异常
 3. 常量使用`static final`修饰
 4. 避免在内部使用`setter`和`getter`
 5. 使用优化过的数据结构,如`SparseArray`等
@@ -14,14 +14,13 @@
 11. 复杂算法尽量使用C完成
 12. 了解java四种引用方式
 13. 使用`StringBuilder`拼接字符串
-14. 慎用异常
 
 **tips:**代码的微优化有很多很多东西可以讲，小到一个变量的声明，大到一段算法。尤其在代码Review的过程中，可能会反复审查代码是否可以优化。不过我认为，代码的微优化是非常耗费时间的，**没有必要从头到尾将所有代码都优化一遍**。开发者应该根据具体的业务逻辑去专门针对某部分代码做优化。比如应用中可能有一些方法会被反复调用，那么这部分代码就值得**专门做优化**。其它的代码，需要开发者在写代码过程中去注意。
 
-## UI优化
+## UI层面
 ### ListView优化
 1. 复用view
-2. 使用`ViewHolder`,且最好是静态内部类
+2. 使用`ViewHolder`模式,且最好是静态内部类（可参考[Android-Common-Adapter](https://github.com/fengjundev/Android-Common-Adapter):一个基于ViewHolder模式的封装库）
 3. listview高度设置为`match_parent`
 4. 涉及图片等加载的时候使用异步加载
 5. 异步加载的时候引入线程池和线程队列
@@ -29,7 +28,6 @@
 7. 图片进行缩放处理
 8. 图片加载时引入三级缓存
 9. 滑动不加载图片
-
 **tips:**listview优化主要是把`getView`的耗时操作提取出来,进行提前加载或者异步加载
 
 ### 布局优化
@@ -43,6 +41,10 @@
 8. 多用`wrap_content``match_parent`
 9. 使用9patch
 10. 尽量为所有分辨率创建资源
+ 
+### 其他
+1. 使用[Compound Drawables](https://sriramramani.wordpress.com/2013/01/15/compound-drawables/)  
+2. [TextView渲染性能的提升](http://www.open-open.com/lib/view/open1429845433994.html)  
 
 ## 内存优化
 1. 图片内存优化
