@@ -24,10 +24,10 @@ http://hukai.me/android-performance-patterns-season-2/
 + 设计模式图解    
 http://design-patterns.readthedocs.org/zh_CN/latest/creational_patterns/singleton.html
 
-+ 开发者新闻：  
-开发者头条：http://toutiao.io/
-App开发日报：http://app.memect.com/
-开发技术前线：http://www.devtf.cn/
++ 开发者新闻：   
+开发者头条：http://toutiao.io/  
+App开发日报：http://app.memect.com/  
+开发技术前线：http://www.devtf.cn/  
 
 + 不错的博客  
 http://blog.csdn.net/guolin_blog?viewmode=contents  
