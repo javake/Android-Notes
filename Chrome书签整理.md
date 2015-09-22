@@ -3,8 +3,9 @@
 + 代码盒子：一个精品代码片段的收藏网站，可以建立自己的收藏库  
 https://www.codota.com
 
-+ GIthub： 开源代码库  
-https://github.com/
++ 开源代码库  
+https://github.com/  
+http://www.android-gems.com/  
 
 + AndroidDevTools ：Android开发工具大全  
 http://www.androiddevtools.cn/
