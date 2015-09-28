@@ -117,7 +117,71 @@ public final class AppUtils{
 - 如果类具有指向可变对象的域，则必须确保该类的客户端无法获得指向这些对象的引用
 
 ## 复合优于继承
-继承打破了封装性
+在包的内部使用继承是安全的，因为属于同一个程序员控制
+考虑使用装饰模式
+继承打破了封装性，要么为继承而设计，并提供文档说明，要么就禁止继承
+
+## 接口优于抽象类
+- 现有的类可以很容易的更新，以实现新的接口
+- 接口是定义混合类型的理想选择（混合类型： 类除了实现它的基本自身行为之外，还可以实现某些可供选择的类型，如`Comparable`）
+- 实现多继承
+- 定义骨架
+
+##　接口只用于定义类型
+接口应该只用来定义类型，不应该被用来导出常量
+常量接口模式是对接口的**不良使用**
+
+```java
+	public interface PhysicalConstant {
+		
+		static final double MAX_VALUE = 100;
+		
+		static final double ELECTRON_MASS = 0.124;
+	}
+```
+如果要导出常量：
+- 枚举类型
+- 不可实例化的工具类
+
+工具类通常要求客户端使用类名来描述常量名，如
+`Constant.MAX_EAT_COUNT`
+如果大量使用工具类导出的常量，可以通过利用`静态导入机制`避免用类名来修饰常量名（JAVA1.5及以上）
+
+```java
+import static com.effectivejava.Constant.*;
+
+public class Test {
+	void getMaxCount(){
+		return MAX_EAT_COUNT;
+	}
+}
+```
+
+## 类层次优于标签类
+
+##　用函数对象表示策略
+
+##　优先考虑使用静态成员类
+非静态成员类的每个实例都会隐含着与外围类的一个外围实例相关联，会有引起内存泄露的风险
+如果声明成员类不要求访问外围实例，就要始终使用static
+
+## 不要在新代码中使用原生态类型
+如果使用像`List`这样的原生态类型，就会丢掉类型安全性
+但是如果使用`List<Object>`这样的参数化类型就不会
+
+## 消除非受检警告
+指的是unchecked cast warnings以及unchecked conversion warnings
+尽可能消除所有警告
+若无法消除，但是可以证实是安全的，可以使用`@suppressWarnings("unchecked")`注解来禁止这条警告
+
+## 优先考虑泛型方法
+如工具类
+
+
+
+
+
+
 
 
 
