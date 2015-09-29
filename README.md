@@ -1,4 +1,4 @@
-# Android Notes
+# Android Notes 
 
-[Effective Java](https://github.com/fengjundev/Android-Notes/blob/master/Contents/Effective%20Java.md)
+[Effective Java 读书笔记](https://github.com/fengjundev/Android-Notes/blob/master/Contents/Effective%20Java.md)
 
