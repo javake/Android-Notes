@@ -1,12 +1,14 @@
 [Layout Inflation as intented](https://possiblemobile.com/2013/05/layout-inflation-as-intended/)
 
+在实际开发中LayoutInflater这个类还是非常有用的，它的作用类似于findViewById()
+是LayoutInflater是用来找res/layout/下的xml布局文件，并且实例化
+
 我们在ListView的Adapter的`getView()`方法里面经常会调用两个参数的inflate方法，
 ```java
 mInflater.inflate(R.layout.adv_viewpager, null)
 ```
 
-我们可能会发现item layout外层的layout_width  layout_height属性都没起作用，全都变成wrap_content的值了。 
-
+我们可能会发现item layout外层的layout_width和layout_height属性都没起作用，全都变成wrap_content的值了。 
 这个问题就是因为我们使用了错误的参数照成的，系统在inflate layout的时候 如果传入的root为空的话 就会忽略LayoutParams.
 
 ```java
