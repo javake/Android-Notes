@@ -1,7 +1,4 @@
-[Layout Inflation as intented](https://possiblemobile.com/2013/05/layout-inflation-as-intended/)
-
-在实际开发中LayoutInflater这个类还是非常有用的，它的作用类似于findViewById()
-是LayoutInflater是用来找res/layout/下的xml布局文件，并且实例化
+在实际开发中LayoutInflater这个类还是非常有用的，它的作用是用来找res/layout/下的xml布局文件，并且实例化  
 
 我们在ListView的Adapter的`getView()`方法里面经常会调用两个参数的inflate方法，
 ```java
@@ -51,3 +48,5 @@ mInflater.inflate(R.layout.adv_viewpager, root, false)
 那么attachToRoot是什么作用呢？ 他会自动把layout加到View hierarchy中， 
 不需要手动调用root.addView，当然在Adapter.getView里面不用手动调用root.addView是因为Adapter已经帮我们做了， 
 所以如果我们在Adapter.getView里面传入attachToRoot为true的话，就会报错， 因为一个view不能attach两次。
+
+[Layout Inflation as intented](https://possiblemobile.com/2013/05/layout-inflation-as-intended/)
