@@ -7,6 +7,7 @@ mInflater.inflate(R.layout.adv_viewpager, null)
 
 我们可能会发现item layout外层的layout_width和layout_height属性都没起作用，全都变成wrap_content的值了。 
 这个问题就是因为我们使用了错误的参数照成的，系统在inflate layout的时候 如果传入的root为空的话 就会忽略LayoutParams.
+详见源码：
 
 ```java
 /**
@@ -39,14 +40,15 @@ mInflater.inflate(R.layout.adv_viewpager, null)
 
 
 
-所以在getView里面应该调用
+所以， 在getView里面应该调用
+```java
 mInflater.inflate(R.layout.adv_viewpager, root, false)
+```
 
+这样`在R.layout.adv_viewpager`文件里面所有关于Layout的属性就都能生效  
 
-这样在R.layout.adv_viewpager layout xml文件里面所有关于Layout的属性就都能生效。
-
-那么attachToRoot是什么作用呢？ 他会自动把layout加到View hierarchy中， 
-不需要手动调用root.addView，当然在Adapter.getView里面不用手动调用root.addView是因为Adapter已经帮我们做了， 
-所以如果我们在Adapter.getView里面传入attachToRoot为true的话，就会报错， 因为一个view不能attach两次。
+那么attachToRoot是什么作用呢？ 
+他会自动把layout加到View hierarchy中，不需要手动调用root.addView，    当然在Adapter.getView里面不用手动调用root.addView是因为Adapter已经帮我们做了， 
+所以如果我们在Adapter.getView里面传入attachToRoot为true的话，就会报错， 因为一个view不能attach两次  
 
 [Layout Inflation as intented](https://possiblemobile.com/2013/05/layout-inflation-as-intended/)
